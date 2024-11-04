@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <a href="@Url.Action("SendMail", "Home")">發送信件(System.Net.Mail)</a>
+    </div>
+    <div>
+        <a href="@Url.Action("SendMailByMailKit", "Home")">發送信件(MailKit)</a>
+    </div>
+</div>
